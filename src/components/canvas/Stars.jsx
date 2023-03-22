@@ -42,7 +42,3 @@ const StarsCanvas = () => {
 };
 
 export default StarsCanvas;
-
-// template_e203zih
-// service_ahjoj1f
-// zcAbFEspCXqf_Qanh
