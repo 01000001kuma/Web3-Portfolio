@@ -33,7 +33,8 @@ const Contact = () => {
 
     setLoaging(true);
 
-    emailjs.sendForm('service_ahjoj1f', 
+    emailjs.sendForm(
+    'service_ahjoj1f', 
     'template_e203zih',
     { 
       form_name: form.name, 
@@ -41,7 +42,9 @@ const Contact = () => {
       from_email: form.email,
       to_email: 'sttrolage@gmail.com',
       message: form.message      
-    }, 'zcAbFEspCXqf_Qanh')
+    }, 
+    'zcAbFEspCXqf_Qanh'
+    )
   }   
   
   
