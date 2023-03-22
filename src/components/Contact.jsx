@@ -29,36 +29,39 @@ const Contact = () => {
   }
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+      e.preventDefault();
 
-    setLoaging(true);
+      setLoaging(true);
 
-    emailjs.sendForm(
-    'service_ahjoj1f', 
-    'template_e203zih',
-    { 
-      form_name: form.name, 
-      to_name: 'Adrian',
-      from_email: form.email,
-      to_email: 'sttrolage@gmail.com',
-      message: form.message      
-    }, 
-    'zcAbFEspCXqf_Qanh'
-    )
-    .then(() => {
-      setLoading(false)
-      alert("Message sent, I'll get back to you soon!")
+      emailjs.sendForm(
+      'service_ahjoj1f', 
+      'template_e203zih',
+      { 
+        form_name: form.name, 
+        to_name: 'Adrian',
+        from_email: form.email,
+        to_email: 'sttrolage@gmail.com',
+        message: form.message      
+      }, 
+      'zcAbFEspCXqf_Qanh'
+      )
+      .then(() => {
+        setLoading(false)
+        alert("Message sent, I'll get back to you soon!")
 
-      setForm({
-        name: "",
-        email: "",
-        message: "",
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        })
+      }, (error) => {
+        setLoading(false)
+        console.log(error)
+        alert("Something went wrong, please try again later")
+          
       })
-        
-      )}
 
-    }
-     
+   }      
   
   
   return (
