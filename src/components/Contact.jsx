@@ -22,7 +22,9 @@ const Contact = () => {
 
   const [loading, setLoading ] = useState(false)
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target
+  }
 
   const handleSubmit = (e) => {}   
   
