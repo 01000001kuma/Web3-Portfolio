@@ -36,7 +36,11 @@ const Contact = () => {
     emailjs.sendForm('service_ahjoj1f', 
     'template_e203zih',
     { 
-      formRef.current
+      form_name: form.name, 
+      to_name: 'Adrian',
+      from_email: form.email,
+      to_email: 'sttrolage@gmail.com',
+      message: form.message      
     }, 'zcAbFEspCXqf_Qanh')
   }   
   
