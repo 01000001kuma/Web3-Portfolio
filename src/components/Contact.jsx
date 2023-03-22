@@ -33,7 +33,11 @@ const Contact = () => {
 
     setLoaging(true);
 
-    emailjs.sendForm('service_ahjoj1f', 'template_e203zih', formRef.current, 'zcAbFEspCXqf_Qanh')
+    emailjs.sendForm('service_ahjoj1f', 
+    'template_e203zih',
+    { 
+      formRef.current
+    }, 'zcAbFEspCXqf_Qanh')
   }   
   
   
