@@ -45,7 +45,20 @@ const Contact = () => {
     }, 
     'zcAbFEspCXqf_Qanh'
     )
-  }   
+    .then(() => {
+      setLoading(false)
+      alert("Message sent, I'll get back to you soon!")
+
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      })
+        
+      )}
+
+    }
+     
   
   
   return (
