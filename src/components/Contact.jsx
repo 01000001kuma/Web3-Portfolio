@@ -28,7 +28,13 @@ const Contact = () => {
     setForm({...form, [name]: value})
   }
 
-  const handleSubmit = (e) => {}   
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setLoaging(true);
+
+    emailjs.sendForm('service_ahjoj1f', 'template_e203zih', formRef.current, 'zcAbFEspCXqf_Qanh')
+  }   
   
   
   return (
