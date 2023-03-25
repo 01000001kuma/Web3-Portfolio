@@ -47,11 +47,19 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
+        I am well-versed in many aspects of React development, from setting up the environment to creating components. I have also worked with HTML, CSS, (SCSS, SaaS), Three.js, SVG (elements and animations), JavaScript, and some backend technologies like NodeJS, MongoDB and Express. If your technologies match mine let me help you solve that problem.
+        <br />
+        <br />
+        Cultivating my creativity with interesting projects is essential. I'm highly organized and love working with clients and fulfilling their needs. I have a solid knowledge of the management, operation, logistics, and development of all activities related to e-commerce software companies and start-ups. 
+        <br />
+        <br />
+        I'm passionate about developing products and enhancing my creativity along the way. I would describe myself as an energetic and decisive person. In my professional career, I've been focused on evaluating operational needs in order to offer solutions to save costs and increase benefits and customer satisfaction.
+
+        {/* I'm a skilled software developer with experience in TypeScript and
         JavaScript, and expertise in frameworks like React, Node.js, and
         Three.js. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        real-world problems. Let's work together to bring your ideas to life! */}
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
