@@ -104,32 +104,33 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "React.js Front End Developer",
+      company_name: "Hiklub",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating side by side with UX/UI re-designing aspects of the application to enhance user experience and CTR.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Skills: Redux.js · Scrum · Full-Stack Development · Engineering · Back-End Web Development · Object-Oriented Programming (OOP) · Web Development · TypeScript · Express.js · Teamwork · MongoDB · Bootstrap · Front-End Development · HTML · Git · HTML5 · JavaScript · React.js · Node.js · material.ui · scss · Cascading Style Sheets (CSS) · Jira · Figma (Software) · Responsive Web Design · GitHub · Linux"
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "React.js Full Stack Developer",
+      company_name: "Ironhack - IMentor",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2022 - June 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -138,8 +139,8 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Backend Developer",
+      company_name: "Ironhack - IronFeeds",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
@@ -151,8 +152,8 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Pure Vanilla Javascript Developer",
+      company_name: "GameJSpolitics",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
