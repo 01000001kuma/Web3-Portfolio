@@ -112,7 +112,7 @@ import {
   
   const experiences = [
     {
-      title: "React.js Front End Developer",
+      title: "Front End Developer (React.js)",
       company_name: "Hiklub",
       icon: starbucks,
       iconBg: "#383E56",
@@ -126,7 +126,7 @@ import {
       ],
     },
     {
-      title: "React.js Full Stack Developer",
+      title: "Full Stack Developer (React.js)",
       company_name: "IMentor - Ironhack",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -139,29 +139,65 @@ import {
       ],
     },
     {
-      title: "Backend Developer",
+      title: "Backend Developer (Node.js & Express.js)",
       company_name: "IronFeeds - Ironhack",
       icon: shopify,
       iconBg: "#383E56",
       date: "April 2022 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "IronFeeds is a CRUD API backend project where users have to sign up to be able to get into the app, after that, we allow our users to create their own articles based on their favorite categories, such as: general, business, entertainment, health, science, and sports. Besides, the users have their own profiles to add their own articles.",
+        "To develop this project we've used Javascript ES6, MongoDB, Express, Handlebars, HTML, CSS, and external news API to fetch the required news.",
+        "Skills: Full-Stack Development · Engineering · Back-End Web Development · Object-Oriented Programming (OOP) · Web Development · Express.js · Teamwork · MongoDB · Front-End Development · HTML · Git",
       ],
     },
     {
-      title: "Pure Vanilla Javascript Developer",
+      title: "Javascript Developer (Vanilla Javascript)",
       company_name: "GameJSpolitics - Ironhack",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "March 2022 - April 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "A web-based game where Spanish corrupt politics are splashed once they want to get out of the parliament, a Whac-A-Mole type of game with a twisted narrative and anarchist feeling. ",
+        "For this project, I've used technologies such as Javascript ES6, Canva, GIMP (Adobe Photoshop), HTML, and CSS.",
+        "Skills: Full-Stack Development · Engineering · Back-End Web Development · Object-Oriented Programming (OOP) · Web Development · Express.js · Teamwork · MongoDB · Front-End Development · HTML · Git.",
+      ],
+    },
+    {
+      title: "Founder & CEO",
+      company_name: "Optimzon",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "March 2019 - April 2022",
+      points: [
+        "B2B Business focused on increasing up to 15% conversion rate and improving user experience while buying on Amazon.- Optimization of product listings on Amazon by implementing Amazon's SEO growing total revenue by up to 8000$ in some cases. - B2B Business focused on increasing up to 15% conversion rate and improving user experience while buying on Amazon.",
+        "Optimization of product listings on Amazon by implementing Amazon's SEO growing total revenue by up to 8000$ in some cases.",
+        "Skills: Engineering · Web Development · Teamwork · Search Engine Optimization (SEO) · E-commerce SEO · Start-ups Management · Business Strategy",
+      ],
+    },
+    {
+      title: "Founder & CEO",
+      company_name: "Namste Luxuries (E-commerce)",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "March 2017 - September 2019",
+      points: [
+        "E-commerce with more than 230 authentic designs based on genuine designs printed on clothes and accessories for women.",
+        "Deployed a fully functional platform using Shopify, Etsy, and Printful.",
+        "Grossing up to 1000$ a month.",
+        "Skills: Web Development · Graphic Design · Teamwork · E-Commerce.",
+      ],
+    },
+    {
+      title: "Founder & CEO",
+      company_name: "Sharegames (Tech Startup)",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "April 2014 - January 2017",
+      points: [
+        "One of the most important projects I've been involved in. ",
+        "Start-up business based on our own algorithm integrated into a completely new platform. The purpose was to exchange videogames between users, leaving aside the monetary factor. ",
+        "4.300 active users on the platform and completing 3 seeding rounds up to 200.000€.",
+        "Skills: Engineering · Web Development · Teamwork · Startup Development · Software Development · JavaScript",
       ],
     },
   ];
