@@ -42,7 +42,7 @@ import {
   
   const services = [
     {
-      title: "Full Stack Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
@@ -104,10 +104,6 @@ import {
       name: "figma",
       icon: figma,
     },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
   ];
   
   const experiences = [
@@ -279,11 +275,11 @@ import {
     {
       name: "Calculator",
       description:
-        "A fun project to take my javascript knowledge to the next level.",
+        "A fun React.js project to take my javascript knowledge to the next level.",
       tags: [
         {
-          name: "Javascript",
-          color: "orange-text-gradient",
+          name: "React.js",
+          color: "blue-text-gradient",
         },
         {
           name: "Html",
@@ -295,7 +291,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/01000001kuma/Calculator",
     },
   ];
   
