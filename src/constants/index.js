@@ -127,23 +127,23 @@ import {
     },
     {
       title: "React.js Full Stack Developer",
-      company_name: "Ironhack - IMentor",
+      company_name: "IMentor - Ironhack",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "May 2022 - June 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "IMentor is a project developed in React and its ecosystem to help students of our Bootcamp to get in touch with senior students and help each other in this challenging journey to become a software developer.",
+        "Developed responsive web application from scratch within one & a half week using React, Node JS, Express, handlebars & Axios.io.",
+        "Acknowledged to be one of the top 2 projects out of 10 teams by a panel of 5 judges.",
+        "Skills: Full-Stack Development · Engineering · Back-End Web Development · Object-Oriented Programming (OOP) · Web Development · Express.js · Teamwork · MongoDB · Front-End Development · HTML · Git.",
       ],
     },
     {
       title: "Backend Developer",
-      company_name: "Ironhack - IronFeeds",
+      company_name: "IronFeeds - Ironhack",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "April 2022 - May 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -153,10 +153,10 @@ import {
     },
     {
       title: "Pure Vanilla Javascript Developer",
-      company_name: "GameJSpolitics",
+      company_name: "GameJSpolitics - Ironhack",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "March 2022 - April 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
