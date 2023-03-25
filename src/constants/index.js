@@ -231,58 +231,62 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Whack-A-Politician",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web-based game where Spanish corrupt politics are splashed once they want to get out of the parliament, a Whac-A-Mole type of game with a twisted narrative and anarchist feeling.",
       tags: [
         {
-          name: "react",
+          name: "VanillaJavascript",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
+          name: "Css",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/01000001kuma/gameJSpolitics",
     },
     {
-      name: "Job IT",
+      name: "IronFedds",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "CRUD API backend project where users have to sign up to be able to get into the app, after that, we allow our users to create their own articles based on their favorite categories, such as: general, business, entertainment, health, science, and sports. Besides, the users have their own profiles to add their own articles.",
       tags: [
         {
-          name: "react",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "Restapi",
+          color: "yellow-text-gradient",
         },
         {
-          name: "scss",
+          name: "Express.js",
           color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/IronFeeds/Ironfeeds",
     },
     {
-      name: "Trip Guide",
+      name: "Calculator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A fun project to take my javascript knowledge to the next level.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Javascript",
+          color: "orange-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Html",
           color: "green-text-gradient",
         },
         {
