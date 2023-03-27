@@ -110,7 +110,7 @@ import {
     {
       title: "Front End Developer (React.js)",
       company_name: "Hiklub",
-      icon: starbucks,
+      icon: shopify,
       iconBg: "#383E56",
       date: "July 2022 - Present",
       points: [
